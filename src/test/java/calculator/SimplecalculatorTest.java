@@ -27,5 +27,12 @@ public class SimplecalculatorTest {
 		cal.div(100,20);
 		assertEquals(5,cal.getResult());
 	}
+
+	@Test
+	public void testMul() {
+		Simplecalculator cal=new Simplecalculator();
+		cal.multi(10,20);
+		assertEquals(200,cal.getResult());
+	}
 	
 }

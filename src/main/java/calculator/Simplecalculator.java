@@ -10,7 +10,9 @@ public class Simplecalculator {
 	public void sub(int x,int y){
 		result = x-y;
 	}
-	
+	public void multi(int x,int y){
+		result = x*y;
+	}
 	public void div(int x,int y){
 		if(y!=0) result = x/y; //분모가 0인경우 
 	}
