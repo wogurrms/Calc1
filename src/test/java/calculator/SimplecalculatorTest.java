@@ -21,4 +21,11 @@ public class SimplecalculatorTest {
 	}
 	
 
+	@Test
+	public void testDiv() {
+		Simplecalculator cal=new Simplecalculator();
+		cal.div(100,20);
+		assertEquals(5,cal.getResult());
+	}
+	
 }
