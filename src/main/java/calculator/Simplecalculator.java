@@ -13,8 +13,6 @@ public class Simplecalculator {
 	
 	public void div(int x,int y){
 		if(y!=0) result = x/y; //분모가 0인경우 
-		else 
-			System.out.println("분모가 0입니다.");
 	}
 	public int getResult(){
 		return result;
