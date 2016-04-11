@@ -34,5 +34,13 @@ public class SimplecalculatorTest {
 		cal.multi(10,20);
 		assertEquals(200,cal.getResult());
 	}
+	@Test
+	public void testInc() {
+		Simplecalculator cal=new Simplecalculator();
+		cal.inc(100);
+		assertEquals(100,cal.getResult());
+		cal.inc(200);
+		assertEquals(300,cal.getResult());
+	}
 	
 }
